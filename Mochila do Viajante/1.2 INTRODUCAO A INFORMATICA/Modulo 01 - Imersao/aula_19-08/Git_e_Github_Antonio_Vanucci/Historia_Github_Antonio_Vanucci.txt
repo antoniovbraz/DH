@@ -1,0 +1,15 @@
+Em 2005, Linus Torvalds precisava urgentemente de um novo sistema de controle de versão para manter o desenvolvimento do kernel do Linux. 
+Então, ele ficou offline por uma semana, escreveu um novo sistema revolucionário do zero e o chamou de Git. 
+Quinze anos depois, a plataforma é líder indiscutível em um mercado gigantesco.
+
+Em todo o mundo, um grande número de start-ups, coletivos e multinacionais, incluindo Google e Microsoft, 
+usam o Git para manter o código-fonte de seus projetos de software. Alguns hospedam seus próprios projetos Git, 
+outros usam o Git por meio de empresas de hospedagem comercial, como GitHub (fundado em 2007), Bitbucket (fundado em 2010) 
+e GitLab (fundado em 2011). O maior deles, o GitHub, tem 40 milhões de desenvolvedores registrados e foi adquirido pela Microsoft 
+por US $ 7,5 bilhões em 2018.
+
+GitHub Desktop é um aplicativo que permite que você interaja com o GitHub usando uma GUI em vez da linha de comando ou um navegador da web. ... 
+Você pode enviar, extrair e clonar repositórios remotos com o GitHub Desktop e usar ferramentas colaborativas, como atribuição de commits e criação de solicitações pull.
+
+Git (e seus concorrentes) às vezes é categorizado como um sistema de controle de versão (VCS), às vezes um sistema de gerenciamento 
+de código-fonte (SCM) e às vezes um sistema de controle de revisão (RCS). Torvalds acha que a vida é muito curta para distinguir entre as definições, então não o farei.
