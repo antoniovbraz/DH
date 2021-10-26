@@ -1,18 +1,23 @@
-function calcimc(peso, altura)
-{
-    let imc = peso / (altura*altura);
-    return imc;
-}
+// function calcImc(peso, altura)
+// {
+//     let imc = peso / (altura*altura);
+//   return Math.round(imc);
+// }
 
-let person = function (nome, idade, altura)
-{
-    let nome = nome;
-    let idade = idade;
-    let altura = altura;
-}
+// let meuimc = calcImc(68,1.72);
+// console.log(meuimc);
 
-pessoa = person("Antonio Henrique", 38, 1.72);
 
-console.log(pessoa);
+var person = {
+  firstName: "Antonio",
+  lastName: "Henrique",
+  idade: 37,
+  peso: 68,
+  altura: 1.72,
+  imc: function calcularIMC(peso,altura) {
+    altura = altura / 100;
+    return (peso / (altura * altura));
+  }
+};
 
-console.log(calcimc(68,1.72).round)
+qualoimc = console.log(`${person.firstName} ${person.lastName} de ${person.idade} anos tem o indice de massa corporal de ${person.imc}`);
