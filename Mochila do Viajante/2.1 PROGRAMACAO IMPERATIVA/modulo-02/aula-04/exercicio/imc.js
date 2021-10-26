@@ -15,9 +15,9 @@ var person = {
   peso: 68,
   altura: 1.72,
   imc: function calcularIMC(peso,altura) {
-    altura = altura / 100;
-    return (peso / (altura * altura));
+    altura = this.altura;
+    return Math.round(this.peso / (altura * altura));
   }
 };
 
-qualoimc = console.log(`${person.firstName} ${person.lastName} de ${person.idade} anos tem o indice de massa corporal de ${person.imc}`);
+qualoimc = console.log(`${person.firstName} ${person.lastName} de ${person.idade} anos tem o indice de massa corporal de ${person.imc()}`);
