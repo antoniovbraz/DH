@@ -37,4 +37,32 @@ function dogYears(dogAge){
 
 console.log("4. Idade do cachorro para humano");
 console.log("Recebido 5 anos");
-console.log(dogYears(5));
+console.log(dogYears(5),"\n");
+
+// 5. Crie uma função que calcule o valor da sua hora de trabalho, tendo como parâmetro o seu salário mensal. PS: considere que você trabalhe 160 horas no mês.
+
+function salarioHora(salarioMes, horasMes) {
+  return salarioMes / horasMes;
+}
+
+console.log("5. Salário do mês em horas");
+console.log("Salário de R$6000,00 por 160 horas trabalhadas");
+console.log(salarioHora(6000, 160),"\n");
+
+// Crie a função calculadora de IMC de uma pessoa, que recebe a altura em centímetros e o peso em quilogramas.Emseguida, execute a função, testan do diferentes valores.
+
+function calculcarIMC(altura, peso) {
+  let alturacm = altura / 100;
+  let imc = Math.round(peso / (alturacm * alturacm));
+  return imc
+}
+
+console.log("6. Calcular o IMC");
+console.log("IMC de Antonio Henrique 172cm e 68kg");
+imc = calculcarIMC(172,68);
+fullname = "Antonio Henrique"
+console.log(`${fullname} tem o indice de massa corporal de ${imc}\n`);
+imc = calculcarIMC(162, 55);
+fullname = "Bruna Heimbeck"
+console.log("IMC de Bruna Heimbeck 162cm e 55kg");
+console.log(`${fullname} tem o indice de massa corporal de ${imc}\n`);
