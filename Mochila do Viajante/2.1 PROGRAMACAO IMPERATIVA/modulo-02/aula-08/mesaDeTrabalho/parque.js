@@ -1,11 +1,11 @@
-function podeSubir(altura, vemAcompanhado) {
+function podeSubir(altura, vemAcompanhado = "Não acompanhado") {
    if (altura <= 2.0 && altura >= 1.40) {
-       console.log("Olá seja bem vindo");
+        console.log("Olá seja bem vindo");
    } else if (altura <= 1.39 && altura >= 1.20 && vemAcompanhado == "Acompanhado") {
-       console.log("Olá seja bem vindo, mas só acompanhado");
+        console.log("Olá seja bem vindo, mas só acompanhado");
    }
     else {
-       console.log("Infelizmente você não tem altura ou não está acompanhado")
+       console.log("Infelizmente você não tem altura ou não está acompanhado");
    }
 }
 
