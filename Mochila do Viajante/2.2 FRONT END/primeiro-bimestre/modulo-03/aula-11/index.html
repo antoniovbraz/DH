@@ -14,39 +14,45 @@
         <form>
 
             <h1>Cadastro de Usuário</h1>
+            <fieldset>
+              <legend>Dados Pessoais</legend>
 
-            <div>
+              <div>
                 <label for="username">Nome Completo</label>
                 <input type="text" name="username" id="username">
-            </div>
+              </div>
 
-            <div>
+              <div>
                 <label for="birthDate">Data de Nascimento</label>
                 <input type="date" name="birthDate" id="birthDate">
-            </div>
+              </div>
 
-            <div>
+
+              <div>
                 <label for="email">E-mail</label>
                 <input type="email" name="email" id="email">
-            </div>
+              </div>
 
-            <div>
+              <div>
                 <label for="password">Senha</label>
                 <input type="password" name="password" id="password">
-            </div>
+              </div>
 
-            <div>
+              <div>
                 <label for="depoimento">Depoimento</label>
                 <textarea name="depoimento" id="depoimento"></textarea>
-            </div>
+              </div>
+            </fieldset>
 
+          <fieldset>
+            <legend>Plano & Pagamento</legend>
             <div>
-                <label for="userPlan">Plano</label>
-                <select name="userPlan" id="userPlan">
-                    <option value="1">Bronze</option>
-                    <option value="2">Prata</option>
-                    <option value="3">Ouro</option>
-                </select>
+              <label for="userPlan">Plano</label>
+              <select name="userPlan" id="userPlan">
+                <option value="1">Bronze</option>
+                <option value="2">Prata</option>
+                <option value="3">Ouro</option>
+              </select>
             </div>
 
             <div>
@@ -63,6 +69,8 @@
               <input type="radio" name="payment" id="bill">
 
             </div>
+
+          </fieldset>
 
           <div>
             <h1>Entrega</h1>
