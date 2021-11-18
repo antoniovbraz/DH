@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    padding: 32px;
+}
+
+.success-button {
+    color: white;
+    border: 0;
+    padding: 12px 24px;
+    background-color: yellowgreen;
+    border-radius: 12px;
+    transition: .4s;
+}
+
+
+.success-button:hover {
+    background-color: rgb(114, 151, 39);
+    border-radius: 32px;
+}
+
+.custom-input {
+    border: 0;
+    background-color: #dddddd;
+    padding: 6px 12px;
+    border-radius: 12px;
+    transition: .5s;
+}
+
+.custom-input:hover {
+    width: 300px;
+    background-color: #f3f3f3;
+}
+
+.custom-input:focus {
+    width: 300px;
+}
