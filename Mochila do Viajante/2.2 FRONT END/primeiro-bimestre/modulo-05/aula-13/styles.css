@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 24px;
+}
+
+.main-button {
+
+    color: white;
+    border: 0;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #5ac4e4;
+    transition: .5s ease-in-out;
+}
+
+.main-button:hover {
+    color: black;
+    background-color: #bee9f6;
+    transform: scale(1.05) rotate(20deg);
+    
+}
+
+p {
+    color: white;
+    font-size: 22px;
+    margin-top: 24px;
+}
