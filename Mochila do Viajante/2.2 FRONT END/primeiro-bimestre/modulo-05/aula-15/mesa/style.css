@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'footer footer'
+    ;
+}
+
+header{
+    padding: 24px;
+    grid-area: header;
+    text-align: center;
+    color: rgb(214, 6, 6);
+}
+
+aside{
+    padding: 24px;
+    grid-area: aside;
+    background-color: cornsilk;
+}
+main {
+    padding: 24px;
+    grid-area: main;
+}
+
+main h1 {
+    text-align: center;
+}
+
+footer {
+    padding: 24px;
+    background-color: gray;
+    grid-area: footer;
+}
+
+
+
+
+/* start manage cards layout here */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cover {
+    width: 350px;
+}
+
+.cover img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.description {
+    background-color: rgb(71, 216, 71);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+/* end manage card layout */
