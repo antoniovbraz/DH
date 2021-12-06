@@ -4,7 +4,7 @@
 // a média de altura das mulheres;
 // o número de homens.
 
-const arquivos = [
+const person = [
   {
     sexo: 'F',
     nome: 'Abigael Natte',
@@ -56,3 +56,40 @@ const arquivos = [
     altura: 1.8,
   },
 ]
+
+function smallerTaller(person) {
+  let height = person.sort((a, b) => {
+    return a.altura - b.altura
+  })
+
+  let smaller = height[0]
+  let taller = height[person.length - 1]
+  return `A maior pessoa do grupo é ${taller.nome}: ${taller.altura}m, e \n menor pessoa é ${smaller.nome}: ${smaller.altura}m.`
+}
+
+console.log(smallerTaller(person))
+
+function mediaAlturaMulheres(person) {
+  let listaMulheres = person
+    .filter((item) => {
+      return item.sexo === 'F'
+    })
+    .map((item) => {
+      return item.altura
+    })
+
+  return (
+    listaMulheres.reduce((acc, num) => {
+      return acc + num
+    }) / listaMulheres.length
+  )
+}
+
+console.log(mediaAlturaMulheres(person))
+
+function numeroHomens(person) {
+  return person.filter((item) => {
+    return item.sexo === 'M'
+  }).length
+}
+console.log(numeroHomens(person))
