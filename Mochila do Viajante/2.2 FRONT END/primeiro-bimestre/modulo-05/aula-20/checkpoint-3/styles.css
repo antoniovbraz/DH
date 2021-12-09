@@ -1,0 +1,106 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito Sans';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
+.row {
+  margin: 0px;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+}
+
+.form-select {
+  background-color: #333;
+  border: 1px solid #757575;
+  color: #757575;
+  height: 35px;
+}
+
+a.navbar-brand {
+  color: #e50914 !important;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.top-sign-in {
+  height: 34px;
+  padding-top: 5px;
+}
+
+.banner {
+  padding: 230px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://images.unsplash.com/photo-1522202176988-66273c2fd55f);
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: 0.7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #e50914;
+  transition: background 0.3s ease;
+}
+
+section {
+  border-top: 8px solid #222;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: #000000;
+}
+
+section h2 {
+  font-size: 45px;
+  color: #fff;
+  font-weight: bold;
+}
+
+section p {
+  font-size: 22px;
+  color: #fff;
+}
+
+.round img {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+}
+
+.round {
+  text-align: center;
+}
