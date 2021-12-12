@@ -1,3 +1,5 @@
+@import url('cards.css');
+
 body {
   padding: 0;
   margin: 0;
@@ -104,3 +106,5 @@ section p {
 .round {
   text-align: center;
 }
+
+/* avatar layout */
