@@ -10,6 +10,18 @@ body {
   background-color: rgb(219, 219, 219);
 }
 
+.night-mode {
+  background-color: rgb(2, 2, 2);
+}
+
+.night-mode .item {
+  background-color: rgb(53, 53, 53);
+  border: 1px solid rgb(63, 63, 63);
+}
+.night-mode h1 {
+  background-color: rgb(53, 53, 53);
+  border-bottom: 1px solid rgb(63, 63, 63);
+}
 h1 {
   padding: .5em 1em;
   background-color: white;
