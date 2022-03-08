@@ -1,3 +1,5 @@
-let nightMode = document.querySelector('body')
+let body = document.querySelector('body')
 
-nightMode.classList.add('night-mode')
+function toggleDark(){
+    body.classList.toggle('dark');
+}

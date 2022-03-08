@@ -10,15 +10,15 @@ body {
   background-color: rgb(219, 219, 219);
 }
 
-.night-mode {
+.dark {
   background-color: rgb(2, 2, 2);
 }
 
-.night-mode .item {
+.dark .item {
   background-color: rgb(53, 53, 53);
   border: 1px solid rgb(63, 63, 63);
 }
-.night-mode h1 {
+.dark h1 {
   background-color: rgb(53, 53, 53);
   border-bottom: 1px solid rgb(63, 63, 63);
 }
