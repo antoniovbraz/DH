@@ -80,7 +80,8 @@ if (condition) {
 Switch
 Permite executar diferentes ações dependendo do valor de uma variável.
 
-`switch (variavel) {
+```
+switch (variavel) {
 case 1:
 // code if variavel == 1;
 break;
@@ -90,7 +91,7 @@ break;
 default:
 // Executar se nenhuma condição anterior for encontrada
 break;
-} `
+} ```
 
 Laços
 For
