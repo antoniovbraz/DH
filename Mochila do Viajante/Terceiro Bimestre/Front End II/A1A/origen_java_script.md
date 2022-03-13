@@ -91,7 +91,7 @@ break;
 default:
 // Executar se nenhuma condição anterior for encontrada
 break;
-} ```
+} ``
 
 Laços
 For
