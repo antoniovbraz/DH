@@ -29,6 +29,7 @@ cardCategory2.setAttribute(
 
 // add the text of the card
 cardCategory2.appendChild(document.createTextNode("Comida 2"));
+
 cardsDiv.appendChild(cardCategory);
 cardsDiv.appendChild(cardCategory2);
 main.appendChild(cardsDiv);
