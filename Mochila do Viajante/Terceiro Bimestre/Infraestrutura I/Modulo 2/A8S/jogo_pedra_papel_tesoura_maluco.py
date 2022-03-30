@@ -80,55 +80,64 @@ while True:
     # Comparamos as escolhas do usuario e do pc para definir o ganhador da rodada
     if escolhaPc == "pedra" and escolhaUsuario == "papel":
         print("Ganhou, papel cobre pedra")
+        pcScore += 1
     elif escolhaPc == "papel" and escolhaUsuario == "tesoura":
         print("Ganhou, tesoura corta papel")
+        pcScore += 1
     elif escolhaPc == "tesoura" and escolhaUsuario == "pedra":
         print("Ganhou, pedra amassa tesoura")
+        pcScore += 1
     elif escolhaPc == "lagarto" and escolhaUsuario == "pedra":
         print("Ganhou, pedra esmaga a lagarto")
+        pcScore += 1
     elif escolhaPc == "lagarto" and escolhaUsuario == "tesoura":
         print("Ganhou, tesoura decapita a Lagarto")
+        pcScore += 1
     elif escolhaPc == "tesoura" and escolhaUsuario == "spock":
         print("Ganhou, Spock quebra tesoura")
+        pcScore += 1
     elif escolhaPc == "spock" and escolhaUsuario == "lagarto":
         print("Ganhou, lagarto envenena a Spock")
     elif escolhaPc == "papel" and escolhaUsuario == "lagarto":
         print ("Ganhou, lagarto come papel")
+        pcScore += 1
     elif escolhaPc == "spock" and escolhaUsuario == "papel":
         print ("Ganhou, papel refuta a Spock")
+        pcScore += 1
     elif escolhaPc == "pedra" and escolhaUsuario == "spock":
         print ("Ganhou, Spock vaporiza pedra")
+        pcScore += 1
         
     if escolhaUsuario == "pedra" and escolhaPc == "papel":
         print("Perdeu, papel cobre pedra")
-        winUser = 1
+        userScore += 1
     elif escolhaUsuario == "papel" and escolhaPc == "tesoura":
         print("Perdeu, tesoura corta papel")
-        winUser = 1
+        userScore += 1
     elif escolhaUsuario == "tesoura" and escolhaPc == "pedra":
         print("Perdeu, pedra amassa tesoura")
-        winUser = 1
+        userScore += 1
     elif escolhaUsuario == "lagarto" and escolhaPc == "pedra":
         print("Perdeu, pedra esmaga a lagarto")
-        winUser = 1
+        userScore += 1
     elif escolhaUsuario == "lagarto" and escolhaPc == "tesoura":
         print("Perdeu, tesoura decapita a Lagarto")
-        winUser = 1
+        userScore += 1
     elif escolhaUsuario == "tesoura" and escolhaPc == "spock":
         print("Perdeu, Spock quebra tesoura")
-        winUser = 1
+        userScore += 1
     elif escolhaUsuario == "spock" and escolhaPc == "lagarto":
         print("Perdeu, lagarto envenena a Spock")
-        winUser = 1
+        userScore += 1
     elif escolhaUsuario == "papel" and escolhaPc == "lagarto":
         print ("Perdeu, lagarto come papel")
-        winUser = 1
+        userScore += 1
     elif escolhaUsuario == "spock" and escolhaPc == "papel":
         print ("Perdeu, papel refuta a Spock")
-        winUser = 1
+        userScore += 1
     elif escolhaUsuario == "pedra" and escolhaPc == "spock":
         print ("Perdeu, Spock vaporiza pedra")
-        winUser = 1
+        userScore += 1
     elif escolhaPc == escolhaUsuario:
         print("Empate")
     # Criado o While para continuar executando o bloco até que o usuario queira sair do jogo,
