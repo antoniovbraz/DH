@@ -1,6 +1,5 @@
 // 1- Adiciona ao cartão, o atributo "class" com o valor "cartao"
-
-
+let cartao = document.querySelector(".cartao ")
 // 2- Adicione o atributo "src" à imagem com o valor "https://www.youtube.com/img/desktop/yt_1200.png"
 
 
