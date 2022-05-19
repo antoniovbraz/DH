@@ -6,10 +6,10 @@ public class Primo {
         System.out.println("Informe um valor:");
         int valor = scanner.nextInt();
 
-        if (valor >= 2 && ehPrimo(valor)) {
-            System.out.println("É primo");
-        } else {
+        if (valor >= 2 && isPrime(valor)) {
             System.out.println("Não é primo.");
+        } else {
+            System.out.println("É primo");
         }
 
         System.out.println("Informe um valor para listar numeros primos:");
@@ -19,14 +19,12 @@ public class Primo {
 
     private static int printPrime(int number) {
         int i;
-        int n = 0;
         for (i = 1; i <= number; i++) {
-            if (ehPrimo(i)) {
-                n = n + i;
-                System.out.println(n);
+            if (isPrime(i)) {
+                System.out.println(i);
             }
         }
-        return n;
+        return i;
     }
 
     private static boolean ehPrimo( int valor ){
@@ -39,4 +37,16 @@ public class Primo {
         }
         return primo;
     }
+    private static boolean isPrime( int num ){
+    boolean flag = false;
+        for (int i = 2; i <= num / 2; ++i) {
+            // Não é um número primo
+            if (num % i == 0) {
+                flag = true;
+                break;
+            }
+        }
+        return flag;
+    }
+
 }
