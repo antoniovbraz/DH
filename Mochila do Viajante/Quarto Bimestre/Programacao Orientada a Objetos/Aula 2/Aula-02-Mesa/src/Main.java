@@ -5,6 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Insira um Número");
         int num = sc.nextInt();
+
         boolean flag = false;
         for (int i = 2; i <= num / 2; ++i) {
             // Não é um número primo
