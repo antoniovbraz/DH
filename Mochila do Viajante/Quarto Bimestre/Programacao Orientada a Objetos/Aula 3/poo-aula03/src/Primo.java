@@ -18,13 +18,15 @@ public class Primo {
     }
 
     private static int printPrime(int number) {
-        int i;
-        for (i = 1; i <= number; i++) {
+        int i = 1;
+        int n = 0;
+        while( n < number){
             if (isPrime(i)) {
+                n++;
                 System.out.println(i);
             }
         }
-        return i;
+        return n;
     }
 
     private static boolean ehPrimo( int valor ){
