@@ -22,6 +22,7 @@ public class Primo {
         int n = 0;
         while( n < number){
             if (isPrime(i)) {
+                i++;
                 n++;
                 System.out.println(i);
             }
