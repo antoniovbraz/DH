@@ -14,6 +14,7 @@ public class Primo {
 
         System.out.println("Informe um valor para listar numeros primos:");
         int n = scanner.nextInt();
+        System.out.println("Os " + n + " primeiros números primos a partir do zero são:");
         System.out.println(printPrime(n));
     }
 
@@ -21,13 +22,13 @@ public class Primo {
         int i = 1;
         int n = 0;
         while( n < number){
-            if (isPrime(i)) {
-                i++;
+            i++;
+            if (ehPrimo(i)) {
                 n++;
                 System.out.println(i);
             }
         }
-        return n;
+        return ' ';
     }
 
     private static boolean ehPrimo( int valor ){
