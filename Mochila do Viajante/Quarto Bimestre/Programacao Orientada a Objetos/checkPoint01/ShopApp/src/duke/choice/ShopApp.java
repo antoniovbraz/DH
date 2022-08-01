@@ -1,12 +1,15 @@
 package duke.choice;
 
+import java.util.Arrays;
+
 /**
  * @author Antonio Henrique S Vanucci Braz
+ * I'm creating a Shop App.
  */
 
 public class ShopApp {
     public static void main(String[] args) {
-        double total = 0.0;
+        // double total = 0.0;
 
         System.out.println("Welcome to Duke Choice Shop");
 
@@ -31,7 +34,7 @@ public class ShopApp {
         int count = 0;
 
         for (Clothing item : c1.getItems()) {
-            if (item.getSize().equals("S")) {
+            if (item.getSize().equals("L")) {
                 count++;
                 average += item.getPrice();
             }
@@ -42,6 +45,13 @@ public class ShopApp {
             System.out.println("Average price " + average + ", Count " + count);
         } catch (ArithmeticException e) {
             System.out.println("Don't divide by 0");
+        }
+
+        Arrays.sort(c1.getItems());
+
+        for (Clothing item : c1.getItems()) {
+            //System.out.println("Item is an " + item.getDescription() + " price " + item.getPrice() + " size " + item.getSize());
+            System.out.println("Item: " + item);
         }
     }
 }

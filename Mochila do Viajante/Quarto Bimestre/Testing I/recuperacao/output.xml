@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on darwin)" generated="20220720 22:14:47.310" rpa="false" schemaversion="3">
+<suite id="s1" name="Antonio" source="/Users/antoniohenrique/code/antoniovbraz/DH/Mochila do Viajante/Quarto Bimestre/Testing I/recuperacao/antonio.robot">
+<test id="s1-t1" name="Validação das informações do curso Certified Tech Developer" line="7">
+<kw name="Abrir o site da Digital House" library="antonio">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220720 22:14:47.564" level="INFO">Opening browser 'Chrome' to base url 'https://www.digitalhouse.com/'.</msg>
+<status status="PASS" starttime="20220720 22:14:47.563" endtime="20220720 22:14:54.449"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220720 22:14:54.450" endtime="20220720 22:14:54.773"/>
+</kw>
+<status status="PASS" starttime="20220720 22:14:47.563" endtime="20220720 22:14:54.774"/>
+</kw>
+<kw name="Aceitar os Cookies" library="antonio">
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220720 22:14:59.780" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220720 22:14:54.776" endtime="20220720 22:14:59.780"/>
+</kw>
+<kw name="Select Frame" library="SeleniumLibrary">
+<arg>xpath=/html/body/iframe[2]</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<msg timestamp="20220720 22:14:59.782" level="INFO">Selecting frame 'xpath=/html/body/iframe[2]'.</msg>
+<status status="PASS" starttime="20220720 22:14:59.781" endtime="20220720 22:14:59.817"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=/html/body/div/div/div[1]/div[1]/div[2]/div[1]/div[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220720 22:14:59.817" level="INFO">Clicking element 'xpath=/html/body/div/div/div[1]/div[1]/div[2]/div[1]/div[2]'.</msg>
+<msg timestamp="20220720 22:15:00.092" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-21.png"&gt;&lt;img src="selenium-screenshot-21.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220720 22:15:00.093" level="FAIL">Element with locator 'xpath=/html/body/div/div/div[1]/div[1]/div[2]/div[1]/div[2]' not found.</msg>
+<status status="FAIL" starttime="20220720 22:14:59.817" endtime="20220720 22:15:00.094"/>
+</kw>
+<status status="FAIL" starttime="20220720 22:14:54.775" endtime="20220720 22:15:00.095"/>
+</kw>
+<kw name="Clicar em &quot;Ver outros cursos&quot;" library="antonio">
+<status status="NOT RUN" starttime="20220720 22:15:00.095" endtime="20220720 22:15:00.096"/>
+</kw>
+<status status="FAIL" starttime="20220720 22:14:47.561" endtime="20220720 22:15:00.096">Element with locator 'xpath=/html/body/div/div/div[1]/div[1]/div[2]/div[1]/div[2]' not found.</status>
+</test>
+<status status="FAIL" starttime="20220720 22:14:47.312" endtime="20220720 22:15:00.098"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Antonio">Antonio</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
