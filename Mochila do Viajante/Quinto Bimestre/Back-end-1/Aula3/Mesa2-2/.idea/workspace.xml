@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b9f0d86-9c56-44f2-baa8-b87e5d6de5a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mesa2-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula3_integradora1/Afiliado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula3_integradora1/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula3_integradora1/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula3_integradora1/Vendedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula_A4A/Gerenciador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula_A4A/GerenciadorComercial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula_A4A/GerenciadorGerencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula_A4A/Mail.java" afterDir="false" />
-    </list>
+    <list default="true" id="1b9f0d86-9c56-44f2-baa8-b87e5d6de5a6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +13,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,6 +40,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Mesa_A4S_Chain_of_Responsibility" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mesa2-2" />
