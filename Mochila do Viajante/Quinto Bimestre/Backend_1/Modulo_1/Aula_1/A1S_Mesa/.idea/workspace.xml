@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7eaadeeb-9704-46e0-9e20-7f9c9be6fda0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/DH.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/out/production/DH/Aula1/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/out/production/DH/Aula1/PessoaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/src/Aula1/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/src/Aula1/PessoaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/Mesa1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/src/mesa1/Circulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/src/mesa1/CirculoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/src/mesa1/Figura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/src/mesa1/Quadrado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/Mesa2-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/out/production/Mesa2-2/Aula3_integradora1/Afiliado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/out/production/Mesa2-2/Aula3_integradora1/Funcionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/out/production/Mesa2-2/Aula3_integradora1/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/out/production/Mesa2-2/Aula3_integradora1/Vendedor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula3_integradora1/Afiliado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula3_integradora1/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula3_integradora1/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula3_integradora1/Vendedor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2/ISerie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2/Serie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2/SerieNaoHabilitadaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/Filme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/FilmeNaoHabilitadoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/GradeDeFilmeProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/GradeDeFilmes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/IGradeDeFilmes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/IP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula_A4A/Gerenciador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula_A4A/GerenciadorComercial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula_A4A/GerenciadorGerencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula_A4A/Mail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Mesa_A4S_Chain_of_Responsibility/Artigo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Mesa_A4S_Chain_of_Responsibility/ControleDeQualidade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Mesa_A4S_Chain_of_Responsibility/Lote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/Mesa2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/src/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/src/Vendedor.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CmDXgVeM3bCmvvxqSwz7OdhaGO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "/Users/antoniohenrique/code/antoniovbraz/DH/Mochila do Viajante/Quinto Bimestre/Backend_1/Modulo_1/Aula_1/A1S_Mesa",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="mesa1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.QuadradoTest.calcularPerimetro">
+    <configuration name="CirculoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mesa1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mesa1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mesa1" />
+      <option name="MAIN_CLASS_NAME" value="mesa1.CirculoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CirculoTest.calcularPerimetro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mesa1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mesa1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mesa1" />
+      <option name="MAIN_CLASS_NAME" value="mesa1.CirculoTest" />
+      <option name="METHOD_NAME" value="calcularPerimetro" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuadradoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mesa1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mesa1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mesa1" />
+      <option name="MAIN_CLASS_NAME" value="mesa1.QuadradoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuadradoTest.calcularPerimetro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mesa1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mesa1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mesa1" />
+      <option name="MAIN_CLASS_NAME" value="mesa1.QuadradoTest" />
+      <option name="METHOD_NAME" value="calcularPerimetro" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.QuadradoTest.calcularPerimetro" />
+        <item itemvalue="JUnit.QuadradoTest" />
+        <item itemvalue="JUnit.CirculoTest.calcularPerimetro" />
+        <item itemvalue="JUnit.CirculoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7eaadeeb-9704-46e0-9e20-7f9c9be6fda0" name="Changes" comment="" />
+      <created>1659398910342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659398910342</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b9f0d86-9c56-44f2-baa8-b87e5d6de5a6" name="Changes" comment="" />
+    <list default="true" id="f12e6678-d20c-4adc-bd7f-01965c41ddf3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +13,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -24,7 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2CourTndXbpOwW2XUI6b4fUyifZ" />
+  <component name="ProjectId" id="2Cm4LMBxRhSvVYGpXNiES7v2S4N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,25 +36,23 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Mesa_A4S_Chain_of_Responsibility" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mesa2-2" />
+    <configuration name="PessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A1S" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula3_integradora1.*" />
+          <option name="PATTERN" value="Aula1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Aula3_integradora1" />
-      <option name="MAIN_CLASS_NAME" value="Aula3_integradora1.MainTest" />
+      <option name="PACKAGE_NAME" value="Aula1" />
+      <option name="MAIN_CLASS_NAME" value="Aula1.PessoaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,18 +60,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.PessoaTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1b9f0d86-9c56-44f2-baa8-b87e5d6de5a6" name="Changes" comment="" />
-      <created>1659481458449</created>
+      <changelist id="f12e6678-d20c-4adc-bd7f-01965c41ddf3" name="Changes" comment="" />
+      <created>1659394375374</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659481458449</updated>
+      <updated>1659394375374</updated>
     </task>
     <servers />
   </component>

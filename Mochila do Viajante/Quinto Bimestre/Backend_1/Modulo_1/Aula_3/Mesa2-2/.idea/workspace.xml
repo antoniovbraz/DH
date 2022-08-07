@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f12e6678-d20c-4adc-bd7f-01965c41ddf3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1b9f0d86-9c56-44f2-baa8-b87e5d6de5a6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Aula-1/DH/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-1/DH/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-1/DH/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-1/DH/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-1/DH/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-1/DH/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-1/DH/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-1/DH/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula-1/DH/DH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula-1/DH/A1S.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,17 +19,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Cm4LMBxRhSvVYGpXNiES7v2S4N" />
+  <component name="ProjectId" id="2CourTndXbpOwW2XUI6b4fUyifZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,17 +46,22 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Mesa_A4S_Chain_of_Responsibility" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="PessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DH" />
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mesa2-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula1.*" />
+          <option name="PATTERN" value="Aula3_integradora1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Aula1" />
-      <option name="MAIN_CLASS_NAME" value="Aula1.PessoaTest" />
+      <option name="PACKAGE_NAME" value="Aula3_integradora1" />
+      <option name="MAIN_CLASS_NAME" value="Aula3_integradora1.MainTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -59,18 +69,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PessoaTest" />
+        <item itemvalue="JUnit.MainTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f12e6678-d20c-4adc-bd7f-01965c41ddf3" name="Changes" comment="" />
-      <created>1659394375374</created>
+      <changelist id="1b9f0d86-9c56-44f2-baa8-b87e5d6de5a6" name="Changes" comment="" />
+      <created>1659481458449</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659394375374</updated>
+      <updated>1659481458449</updated>
     </task>
     <servers />
   </component>
