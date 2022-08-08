@@ -4,63 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eaadeeb-9704-46e0-9e20-7f9c9be6fda0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/DH.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/out/production/DH/Aula1/Pessoa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/out/production/DH/Aula1/PessoaTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/src/Aula1/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/DH/src/Aula1/PessoaTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/Mesa1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/src/mesa1/Circulo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/src/mesa1/CirculoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/src/mesa1/Figura.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula-1/Mesa1/src/mesa1/Quadrado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/Mesa2-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/out/production/Mesa2-2/Aula3_integradora1/Afiliado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/out/production/Mesa2-2/Aula3_integradora1/Funcionario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/out/production/Mesa2-2/Aula3_integradora1/MainTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/out/production/Mesa2-2/Aula3_integradora1/Vendedor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula3_integradora1/Afiliado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula3_integradora1/Funcionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula3_integradora1/MainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula3_integradora1/Vendedor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2/ISerie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2/Serie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2/SerieNaoHabilitadaException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/Filme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/FilmeNaoHabilitadoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/GradeDeFilmeProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/GradeDeFilmes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/IGradeDeFilmes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/IP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula6_integradora2_2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula_A4A/Gerenciador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula_A4A/GerenciadorComercial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula_A4A/GerenciadorGerencia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Aula_A4A/Mail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Mesa_A4S_Chain_of_Responsibility/Artigo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Mesa_A4S_Chain_of_Responsibility/ControleDeQualidade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2-2/src/Mesa_A4S_Chain_of_Responsibility/Lote.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/Mesa2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/src/Funcionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Back-end-1/Aula3/Mesa2/src/Vendedor.java" beforeDir="false" />
-    </list>
+    <list default="true" id="7eaadeeb-9704-46e0-9e20-7f9c9be6fda0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,21 +30,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "/Users/antoniohenrique/code/antoniovbraz/DH/Mochila do Viajante/Quinto Bimestre/Backend_1/Modulo_1/Aula_1/A1S_Mesa",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/antoniohenrique/code/antoniovbraz/DH/Mochila do Viajante/Quinto Bimestre/Backend_1/Modulo_1/Aula_1/A1S_Mesa&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
