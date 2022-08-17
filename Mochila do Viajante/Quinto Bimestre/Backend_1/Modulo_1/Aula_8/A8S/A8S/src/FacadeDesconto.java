@@ -1,4 +1,3 @@
-import java.util.Queue;
 
 public class FacadeDesconto implements IFacadeDesconto{
 

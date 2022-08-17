@@ -8,6 +8,7 @@ public class Computer {
     private static int contador;
     // Initializing the superclass
     public Computer(int ram, int HD) {
+        super();
         this.ram = ram;
         this.HD = HD;
         contador++;
