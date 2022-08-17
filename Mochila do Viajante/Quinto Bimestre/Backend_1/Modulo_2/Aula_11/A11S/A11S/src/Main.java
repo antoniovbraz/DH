@@ -2,11 +2,9 @@ import java.sql.*;
 
 public class Main {
 
-    private static final String sqlCreateTable = "DROP TABLE IF EXISTS Animal; CREATE TABLE Animal;" +
-            "(" + "id INT PRIMARY KEY," +
-            "Nome VARCHAR(100) NOT NULL," +
-            "Tipo VARCHAR(100) NOT NULL" +
-            ")";
+    private static final String sqlCreateTable = "DROP TABLE IF EXISTS Animal; CREATE TABLE Animal(Id INT PRIMARY KEY, Nome VARCHAR(255), Tipo VARCHAR(255))";
+
+
 
     private static final String sqlInsert1 = "INSERT INTO Animal(id, Nome, Tipo) VALUES (1, 'Meg', 'Cachorro');";
     private static final String sqlInsert2 = "INSERT INTO Animal(id, Nome, Tipo) VALUES (2, 'Tobias', 'Cavalo');";
