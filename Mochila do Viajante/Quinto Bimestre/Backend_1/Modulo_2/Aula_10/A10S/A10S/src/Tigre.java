@@ -1,16 +1,15 @@
 import org.apache.log4j.Logger;
 
-public class Leao {
-    private static final Logger logger = Logger.getLogger(Leao.class);
+public class Tigre {
+    private static final Logger logger = Logger.getLogger(Tigre.class);
     private String nome;
-    private  int idade;
-    private boolean eAlfa;
+    private int idade;
 
-    public Leao(String nome, int idade, boolean eAlfa) {
+    public Tigre(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
-        this.eAlfa = eAlfa;
     }
+
     public String getNome() {
         return nome;
     }
@@ -27,21 +26,14 @@ public class Leao {
         this.idade = idade;
     }
 
-    public boolean iseAlfa() {
-        return eAlfa;
-    }
-
-    public void seteAlfa(boolean eAlfa) {
-        this.eAlfa = eAlfa;
-    }
-
     public void correr(){
-        logger.info("O leão " + nome + " está correndo.");
+        logger.info("O tigre " + nome + " está correndo.");
     }
+
 
     public void eMaiorQue10() throws Exception {
-        if(idade>10 && iseAlfa()){
-            logger.info("O leão " + nome + " tem mais de 10 anos.");
+        if(idade>10){
+            logger.info("O tigre " + nome + " tem mais de 10 anos.");
         } else
         {
             logger.info("A idade e/ou boolean do " + nome + " é falso");
