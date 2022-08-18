@@ -82,3 +82,39 @@
 [2022-08-17 22:38:39] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
 [2022-08-17 22:42:57] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=null, nomeFilial='Dunder Mifflin', rua='Slough Road', numero=1728, cidade='Scranton', estado='Pennsylvania', eCincoEstrelas=true}
 [2022-08-17 22:42:57] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 22:50:29] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=null, nomeFilial='Dunder Mifflin', rua='Slough Road', numero=1728, cidade='Scranton', estado='Pennsylvania', eCincoEstrelas=true}
+[2022-08-17 22:50:30] [ERROR] [FilialDaoH2:46] A conexão com o banco de dados falhou
+[2022-08-17 22:52:49] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=null, nomeFilial='Dunder Mifflin', rua='Slough Road', numero=1728, cidade='Scranton', estado='Pennsylvania', eCincoEstrelas=true}
+[2022-08-17 22:52:50] [ERROR] [FilialDaoH2:46] A conexão com o banco de dados falhou
+[2022-08-17 22:54:16] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=null, nomeFilial='Dunder Mifflin', rua='Slough Road', numero=1728, cidade='Scranton', estado='Pennsylvania', eCincoEstrelas=true}
+[2022-08-17 22:54:17] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 22:57:12] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=1, nomeFilial='Dunder Mifflin', rua='Slough Road', numero=1728, cidade='Scranton', estado='Pennsylvania', eCincoEstrelas=true}
+[2022-08-17 22:57:12] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 22:57:12] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=2, nomeFilial='Filial 2', rua='Guarana', numero=178, cidade='Antartica', estado='RJ', eCincoEstrelas=true}
+[2022-08-17 22:57:12] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 22:57:12] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=3, nomeFilial='Filial 3', rua='Coca', numero=17, cidade='Cola', estado='SP', eCincoEstrelas=true}
+[2022-08-17 22:57:12] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 22:57:12] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=4, nomeFilial='Filial 4', rua='Dolly', numero=28, cidade='Guarana', estado='MG', eCincoEstrelas=false}
+[2022-08-17 22:57:12] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 22:57:12] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=5, nomeFilial='Filial 5', rua='Calendario', numero=72, cidade='Cadeira', estado='RJ', eCincoEstrelas=false}
+[2022-08-17 22:57:12] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 22:58:04] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=1, nomeFilial='Dunder Mifflin', rua='Slough Road', numero=1728, cidade='Scranton', estado='Pennsylvania', eCincoEstrelas=true}
+[2022-08-17 22:58:05] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 22:58:05] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=2, nomeFilial='Filial 2', rua='Guarana', numero=178, cidade='Antartica', estado='RJ', eCincoEstrelas=true}
+[2022-08-17 22:58:05] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 22:58:05] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=3, nomeFilial='Filial 3', rua='Coca', numero=17, cidade='Cola', estado='SP', eCincoEstrelas=true}
+[2022-08-17 22:58:05] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 22:58:05] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=4, nomeFilial='Filial 4', rua='Dolly', numero=28, cidade='Guarana', estado='MG', eCincoEstrelas=false}
+[2022-08-17 22:58:05] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 22:58:05] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=5, nomeFilial='Filial 5', rua='Calendario', numero=72, cidade='Cadeira', estado='RJ', eCincoEstrelas=false}
+[2022-08-17 22:58:05] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 23:01:16] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=1, nomeFilial='Dunder Mifflin', rua='Slough Road', numero=1728, cidade='Scranton', estado='Pennsylvania', eCincoEstrelas=true}
+[2022-08-17 23:01:16] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 23:01:16] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=2, nomeFilial='Filial 2', rua='Guarana', numero=178, cidade='Antartica', estado='RJ', eCincoEstrelas=true}
+[2022-08-17 23:01:16] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 23:01:16] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=3, nomeFilial='Filial 3', rua='Coca', numero=17, cidade='Cola', estado='SP', eCincoEstrelas=true}
+[2022-08-17 23:01:16] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 23:01:16] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=4, nomeFilial='Filial 4', rua='Dolly', numero=28, cidade='Guarana', estado='MG', eCincoEstrelas=false}
+[2022-08-17 23:01:16] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou
+[2022-08-17 23:01:16] [INFO ] [FilialDaoH2:25] Iniciando a conexão com o banco de dados Filial{id=5, nomeFilial='Filial 5', rua='Calendario', numero=72, cidade='Cadeira', estado='RJ', eCincoEstrelas=false}
+[2022-08-17 23:01:16] [ERROR] [FilialDaoH2:47] A conexão com o banco de dados falhou

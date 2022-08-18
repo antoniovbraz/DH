@@ -9,7 +9,8 @@ public class Filial {
     private String estado;
     private boolean eCincoEstrelas;
 
-    public Filial(String nomeFilial, String rua, int numero, String cidade, String estado, boolean eCincoEstrelas) {
+    public Filial(Integer id, String nomeFilial, String rua, int numero, String cidade, String estado, boolean eCincoEstrelas) {
+        this.id = id;
         this.nomeFilial = nomeFilial;
         this.rua = rua;
         this.numero = numero;

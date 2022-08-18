@@ -25,8 +25,8 @@ public class FilialDaoH2 implements IDao <Filial>{
         logger.info("Iniciando a conexão com o banco de dados " + filiais.toString());
         Connection connection = configuracaoJDBC.conectarComBancoDeDados();
         Statement statement = null;
-        String query = String.format("INSERT INTO FILIAIS VALUES(nomeFilial, rua, numero, cidade, estado,eCincoEstrelas) " +
-                "VALUES('%s','%s','%s','%s','%s','%s')",
+        String query = String.format("INSERT INTO FILIAIS VALUES('%s','%s','%s','%s','%s','%s','%s')",
+                filiais.getId(),
                 filiais.getNomeFilial(),
                 filiais.getRua(),
                 filiais.getNumero(),
@@ -35,14 +35,14 @@ public class FilialDaoH2 implements IDao <Filial>{
                 filiais.iseCincoEstrelas());
         try {
             statement = connection.createStatement();
-            statement.executeUpdate(query, Statement.RETURN_GENERATED_KEYS);
+            statement.executeUpdate(query);
             ResultSet keys = statement.getGeneratedKeys();
             if (keys.next()){
                 filiais.setId(keys.getInt(1));
                 statement.close();
                 connection.close();
             }
-        }catch (SQLException e){
+            }catch (SQLException e){
             e.printStackTrace();
             logger.error("A conexão com o banco de dados falhou");
         }
