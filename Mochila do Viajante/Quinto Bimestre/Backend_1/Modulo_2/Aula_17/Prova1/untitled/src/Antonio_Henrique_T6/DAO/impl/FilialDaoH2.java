@@ -25,7 +25,7 @@ public class FilialDaoH2 implements IDao <Filial>{
         logger.info("Iniciando a conexão com o banco de dados " + filiais.toString());
         Connection connection = configuracaoJDBC.conectarComBancoDeDados();
         Statement statement = null;
-        String query = String.format("INSERT INTO FILIAIS VALUES('%s','%s','%s','%s','%s','%s','%s')",
+        String query = String.format("INSERT INTO FILIAIS VALUES('%d','%s','%s','%s','%s','%s','%s')",
                 filiais.getId(),
                 filiais.getNomeFilial(),
                 filiais.getRua(),
