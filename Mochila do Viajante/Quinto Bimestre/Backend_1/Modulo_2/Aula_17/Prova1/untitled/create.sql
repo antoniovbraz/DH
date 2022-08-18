@@ -1,1 +1,1 @@
-create table if not exists
+CREATE TABLE IF NOT EXISTS FILIAIS(id INT AUTO_INCREMENT PRIMARY KEY, nomeFilial VARCHAR(255), rua VARCHAR(255), numero INT, cidade VARCHAR(255),estado VARCHAR(255), eCincoEstrelas BIT);
