@@ -22,7 +22,7 @@ public class ProductController {
         return service.save(product);
     }
 
-    @GetMapping
+    @GetMapping("/all")
     public List<Product> listAll() throws SQLException{
         return service.listAll();
     }
@@ -38,7 +38,7 @@ public class ProductController {
         service.update(product);
     }*/
 
-    @PutMapping
+    @PutMapping("/update")
     public ResponseEntity<Product> update(@RequestBody Product product) throws SQLException
     {
         ResponseEntity responseEntity = null;
@@ -49,7 +49,7 @@ public class ProductController {
         return responseEntity;
     };
 
-    @DeleteMapping
+    @DeleteMapping("/delete")
     /*public void delete(@RequestParam("id") int id) throws SQLException{
         service.delete(id);
     }*/
