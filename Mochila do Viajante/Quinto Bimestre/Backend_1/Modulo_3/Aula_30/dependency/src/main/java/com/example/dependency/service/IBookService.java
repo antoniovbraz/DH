@@ -1,4 +1,7 @@
 package com.example.dependency.service;
 
-public interface IBookService {
+import java.util.List;
+
+public interface IBookService<T> {
+    public List<T> listAllBooks();
 }
