@@ -26,6 +26,7 @@ public class StudentServiceImpl implements IStudentService<StudentsEntity> {
     public Optional<StudentsEntity> findStudentById(Long id){
         return  studentRepository.findById(id);
     }
+
     @Override
     public StudentsEntity addStudent(StudentsEntity studentsEntity){
         if (studentsEntity != null){
