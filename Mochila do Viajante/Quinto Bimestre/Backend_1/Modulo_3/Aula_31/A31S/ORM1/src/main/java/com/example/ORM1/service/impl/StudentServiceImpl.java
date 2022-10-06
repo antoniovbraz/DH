@@ -1,6 +1,6 @@
 package com.example.ORM1.service.impl;
 
-import com.example.ORM1.entity.StudentsEntity;
+import com.example.ORM1.entity.StudentEntity;
 import com.example.ORM1.repository.IStudentRepository;
 import com.example.ORM1.service.IStudentService;
 import org.springframework.stereotype.Service;
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class StudentServiceImpl implements IStudentService<StudentsEntity> {
+public class StudentServiceImpl implements IStudentService<StudentEntity> {
 
     private final IStudentRepository studentRepository;
 
@@ -18,27 +18,27 @@ public class StudentServiceImpl implements IStudentService<StudentsEntity> {
     }
 
     @Override
-    public List<StudentsEntity> findAllStudents(){
+    public List<StudentEntity> findAllStudents(){
         return studentRepository.findAll();
     }
 
     @Override
-    public Optional<StudentsEntity> findStudentById(Long id){
+    public Optional<StudentEntity> findStudentById(Long id){
         return  studentRepository.findById(id);
     }
 
     @Override
-    public StudentsEntity addStudent(StudentsEntity studentsEntity){
-        if (studentsEntity != null){
-            return (StudentsEntity) studentRepository.save(studentsEntity);
+    public StudentEntity addStudent(StudentEntity studentEntity){
+        if (studentEntity != null){
+            return (StudentEntity) studentRepository.save(studentEntity);
         }
-        return new StudentsEntity();
+        return new StudentEntity();
     }
 
     @Override
-    public String updateStudent(StudentsEntity studentsEntity){
-        if(studentsEntity != null && studentRepository.findById(studentsEntity.getId()).isPresent()){
-            studentRepository.saveAndFlush(studentsEntity);
+    public String updateStudent(StudentEntity studentEntity){
+        if(studentEntity != null && studentRepository.findById(studentEntity.getId()).isPresent()){
+            studentRepository.saveAndFlush(studentEntity);
             return "Student Updated";
         }
         return "Student not found";
