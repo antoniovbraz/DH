@@ -1,0 +1,27 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+      "no-console" : "off",
+      "comma-dangle" : "off",
+      "quotes" : "off",
+      "arrow-body-style" : 0,
+      "react/prop-types" : 0,
+      "space-before-function-paren" : 0
+    }
+}

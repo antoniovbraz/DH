@@ -1,0 +1,6 @@
+teste unitario
+teste funcional
+
+teste de integracao
+
+tentando gerar conflito de push
