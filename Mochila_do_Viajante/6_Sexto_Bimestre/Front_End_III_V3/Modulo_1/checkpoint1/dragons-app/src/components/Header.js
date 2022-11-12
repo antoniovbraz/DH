@@ -1,14 +1,15 @@
 import PropTypes from "prop-types"; // prop-types para default e validações.
 import Button from "./Button"; // Componente filho de Header
 
-const Header = ({ title }) => {
-  const onClick = () => {
-    console.log("Click");
-  };
+const Header = ({ title, onAdd, showAdd }) => {
   return (
     <header className="header">
       <h1>{title}</h1>
-      <Button color="green" text="Add" onClick={onClick} />
+      <Button
+        color={showAdd ? "Red" : "Green"}
+        text={showAdd ? "Close" : "Add"}
+        onClick={onAdd}
+      />
     </header>
   );
 };

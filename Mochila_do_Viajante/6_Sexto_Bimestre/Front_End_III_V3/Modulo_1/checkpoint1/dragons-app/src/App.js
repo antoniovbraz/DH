@@ -29,6 +29,7 @@ import Dragons from "./components/Dragons";
 import Header from "./components/Header";
 
 function App() {
+  const [showAddDragon, setShowAddDragon] = useState(false);
   const [dragons, setDragons] = useState([
     {
       id: 1,
@@ -73,8 +74,11 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <AddDragon onAdd={addDragon} />
+      <Header
+        onAdd={() => setShowAddDragon(!showAddDragon)}
+        showAdd={showAddDragon}
+      />
+      {showAddDragon && <AddDragon onAdd={addDragon} />}
       {dragons.length > 0 ? (
         <Dragons
           dragons={dragons}
