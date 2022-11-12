@@ -2,12 +2,12 @@ import { FaTimes } from "react-icons/fa";
 
 const Dragon = ({ dragon, onDelete, onToggle }) => {
   return (
-    <div className="card-main">
+    <div
+      className={`dragon ${dragon.favorite ? "favorite" : ""} card-main`}
+      onDoubleClick={() => onToggle(dragon.id)}
+    >
       <img src={dragon.image} alt={dragon.text} />
-      <div
-        className={`dragon ${dragon.favorite ? "favorite" : ""} card-infos`}
-        onDoubleClick={() => onToggle(dragon.id)}
-      >
+      <div className="card-infos">
         <div>
           <h3>
             {dragon.text}
