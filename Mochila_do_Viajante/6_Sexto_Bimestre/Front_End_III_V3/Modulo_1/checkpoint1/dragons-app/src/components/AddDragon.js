@@ -3,6 +3,7 @@ import { useState } from "react";
 const AddDragon = ({ onAdd }) => {
   const [text, setText] = useState("");
   const [dragonClass, setDragonsClass] = useState("");
+  const [image, setImage] = useState("");
   const [favorite, setFavorite] = useState(false);
 
   const onSubmit = (e) => {
@@ -13,10 +14,11 @@ const AddDragon = ({ onAdd }) => {
       return;
     }
 
-    onAdd({ text, dragonClass, favorite });
+    onAdd({ text, dragonClass, image, favorite });
 
     setText("");
     setDragonsClass("");
+    setImage("");
     setFavorite(false);
   };
 
@@ -40,6 +42,15 @@ const AddDragon = ({ onAdd }) => {
           onChange={(e) => setDragonsClass(e.target.value)}
         />
       </div>
+      <div className="form-control">
+        <label>Dragon Image: </label>
+        <input
+          type="text"
+          placeholder="Add Image"
+          value={image}
+          onChange={(e) => setImage(e.target.value)}
+        />
+      </div>
       <div className="form-control form-control-check">
         <label>Set as Favorite: </label>
         <input
@@ -50,7 +61,7 @@ const AddDragon = ({ onAdd }) => {
         />
       </div>
 
-      <input type="submit" value="Save Dragon" className="btn btn-block" />
+      <input type="submit" value="Save Dragon" />
     </form>
   );
 };

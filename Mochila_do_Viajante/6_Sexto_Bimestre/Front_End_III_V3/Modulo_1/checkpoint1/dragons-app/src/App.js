@@ -35,12 +35,16 @@ function App() {
       id: 1,
       text: "Banguela",
       dragonClass: "Ataque/Furia da Noite",
+      image:
+        "https://seletronic.com.br/wp-content/uploads/2021/04/banguela-como-treinar-seu-dragao-peixe-tamuata-800x500.jpg",
       favorite: true,
     },
     {
       id: 2,
       text: "Tempestade",
       dragonClass: "Rastreador/Nadder Mortal",
+      image:
+        "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/8/8b/Stormfly_Transparent.png/",
       favorite: true,
     },
     {

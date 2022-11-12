@@ -25,6 +25,11 @@
   margin: 0;
 }
 
+.card-main > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
 .card-main .card-infos {
   padding: 16px;
   display: flex;
