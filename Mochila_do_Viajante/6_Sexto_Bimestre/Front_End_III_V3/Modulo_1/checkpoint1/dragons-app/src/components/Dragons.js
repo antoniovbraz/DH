@@ -1,7 +1,7 @@
 import Dragon from "./Dragon";
 function Dragons({ dragons, onDelete, onToggle }) {
   return (
-    <>
+    <div className="cards">
       {dragons.map((dragon) => (
         <Dragon
           key={dragon.id}
@@ -10,7 +10,7 @@ function Dragons({ dragons, onDelete, onToggle }) {
           onToggle={onToggle}
         />
       ))}
-    </>
+    </div>
   );
 }
 
