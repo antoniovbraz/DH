@@ -44,7 +44,7 @@ function App() {
       text: "Tempestade",
       dragonClass: "Rastreador/Nadder Mortal",
       image:
-        "https://static.wikia.nocookie.net/rise-of-the-brave-tangled-dragons/images/8/8b/Stormfly_Transparent.png/",
+        "https://assets1.ignimgs.com/thumbs/userUploaded/2018/6/7/httyd-thumb-1528386082323.jpg",
       favorite: true,
     },
     {
@@ -79,6 +79,7 @@ function App() {
   return (
     <div className="App">
       <Header
+        className="header"
         onAdd={() => setShowAddDragon(!showAddDragon)}
         showAdd={showAddDragon}
       />

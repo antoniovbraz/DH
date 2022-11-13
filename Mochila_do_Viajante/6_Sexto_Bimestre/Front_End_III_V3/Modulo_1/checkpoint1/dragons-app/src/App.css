@@ -1,7 +1,20 @@
 .App {
   text-align: center;
+  margin: 20px;
 }
 
+.header {
+  margin-bottom: 20px;
+}
+
+.add-form {
+  margin-bottom: 20px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -40,4 +53,13 @@
 
 .dragon.favorite {
   border-left: 5px solid green;
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #670bff;
+  transition: background 0.3s ease;
+  border: 0;
 }
